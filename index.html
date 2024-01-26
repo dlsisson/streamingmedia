@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <!-- NOTE: Leave all the content in this order; do not rearrange the text. This is the order it needs to be for reading--
+    left to tight, top to bottom. Use CSS to visually order it for viewing. Also, note the title and heading that have
+    been applied. -->
+    <header class="article-title">
+        <h1>Smooth Jazz</h1>
+        <p>This station is dedicated to the soothing sounds of smooth jazz. This genre of commercially oriented
+            crossoverjazz became dominant in the 1980s and early 1990s.</p>
+        <nav class="navbar">
+            <ul>
+                <li class="muzakmaker"><a href="">MuzakMaker</a></li>
+                <li><a href="">Trending Songs</a></li>
+                <li><a href="">Your playlists</a></li>
+                <li><a href="">Curated Playlists</a></li>
+                <li> <img src="images-20240123T060810Z-001/images/duke-silver.png" alt="user photo"></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="trending">
+            <h2 class="section-title">Trending Songs</h2>
+            <div class="scroll">
+                <section>
+                    <div>
+                        <h3>Aloma</h3>
+                        <dl>
+                            <dt>Artist</dt>
+                            <dd>Cali</dd>
+                        </dl>
+                    </div>
+                    <img src="images-20240123T060810Z-001/images/aloma-cover.png"
+                        alt="Album art showing photo of dove in flight">
+                    <audio controls src="audio-20240124T023736Z-001/audio/aloma.mp3">
+                    </audio>
+                </section>
+                <section class="song-info">
+                    <div>
+                        <h3>My Road</h3>
+                        <dl>
+                            <dt>Artist</dt>
+                            <dd>Nesterouk</dd>
+                        </dl>
+                    </div>
+                    <img src="images-20240123T060810Z-001/images/my-road-cover.png"
+                        alt="Album art showing photo of long empty road through a desert">
+                    <audio controls src="audio-20240124T023736Z-001/audio/my-road.mp3">
+                    </audio>
+                </section>
+                <section class="song-info">
+                    <div>
+                        <h3>Papaya</h3>
+                        <dl>
+                            <dt>Artist</dt>
+                            <dd>Dredstudio</dd>
+                        </dl>
+                    </div>
+                    <img src="images-20240123T060810Z-001/images/papaya-cover.png"
+                        alt="Album art showing a photo of a halfed papaya">
+                    <audio controls src="audio-20240124T023736Z-001/audio/papaya.mp3">
+                    </audio>
+                </section>
+                <section class="song-info">
+                    <div>
+                        <h3>Smoothies</h3>
+                        <dl>
+                            <dt>Artist</dt>
+                            <dd>Black Rhomb</dd>
+                        </dl>
+                    </div>
+                    <img src="images-20240123T060810Z-001/images/smoothies-cover.png"
+                        alt="Album art showing photo of a pink smoothie surrounded by fruit">
+                    <audio controls src="audio-20240124T023736Z-001/audio/smoothies.mp3">
+                    </audio>
+                </section>
+                <section class="song-info">
+                    <div>
+                        <h3>Successful Performance</h3>
+                        <dl>
+                            <dt>Artist</dt>
+                            <dd>Ricky Bombino</dd>
+                        </dl>
+                    </div>
+                    <img src="images-20240123T060810Z-001/images/successful-performance-cover.png"
+                        alt="Album art showing photo of man wearing red shirt cheering in front of blue wall">
+                    <audio controls src="audio-20240124T023736Z-001/audio/successful-performance.mp3">
+                    </audio>
+                </section>
+            </div>
+        </section>
+    </main>
+    <div id="trending-button-style">
+        <button type="button" id="trending-button">More trending</button>
+    </div>
+    <div id="section-2">
+        <section id="your-playlists" class="section-2-item">
+            <h2 class="section-title">Your Playlists</h2>
+            <div class="your-container">
+                <section class="your-section">
+                    <img src="images-20240123T060810Z-001/images/best-of-2020-cover.png" alt="Best of 2020 album cover">
+                    <dl>
+                        <dt>Best of 2020</dt>
+                        <dd>The music that got you through the lock down.</dd>
+                    </dl>
+                </section>
+                <section class="your-section">
+                    <img src="images-20240123T060810Z-001/images/pumpkin-spice-cover.png"
+                        alt="Photo of pumpkin spice latte">
+                    <dl>
+                        <dt>Pumpkin Spice</dt>
+                        <dd>Creamy and spicy, just like your favorite autumnal latte.</dd>
+                    </dl>
+                </section>
+                <section class="your-section">
+                    <img src="images-20240123T060810Z-001/images/quiet-storm-cover.png" alt="Photo of storm clouds">
+                    <dl>
+                        <dt>Quiet Storm</dt>
+                        <dd>Slow tempos and relaxed rhythms.</dd>
+                    </dl>
+                </section>
+                <section class="your-section">
+                    <img src="images-20240123T060810Z-001/images/smooth-jazz-cover.png"
+                        alt="Photo of man in green shrit">
+                    <dl>
+                        <dt>Smooth Jazz</dt>
+                        <dd>The pioneers of smooth jazz</dd>
+                    </dl>
+                </section>
+                <section class="your-section">
+                    <img src="images-20240123T060810Z-001/images/smooth-study-cover.png"
+                        alt="Photo of person typing on a laptop">
+                    <dl>
+                        <dt>Smooth Study</dt>
+                        <dd>Background music to keep you going while you study.</dd>
+                    </dl>
+                </section>
+            </div>
+        </section>
+        <button type="button" id="your-button" class="section-2-item section-2-button">All your playlists</button>
+        <section id="curated" class="section-2-item">
+            <h2 class="section-title">Curated Playlists</h2>
+            <div class="curated-container">
+                <section class="curated-section">
+                    <img src="images-20240123T060810Z-001/images/boozy-brunch-cover.png"
+                        alt="A group toasting with glasses">
+                    <dl>
+                        <dt>Brunch</dt>
+                        <dd>Light up the afternoon with these energetic hits.</dd>
+                    </dl>
+                </section>
+                <section class="curated-section">
+                    <img src="images-20240123T060810Z-001/images/dinner-party-cover.png" alt="Photo of a dinner feast">
+                    <dl>
+                        <dt>Dinner Party</dt>
+                        <dd>Background music to give your party life, but allow your guests to chat.</dd>
+                    </dl>
+                </section>
+                <section class="curated-section">
+                    <img src="images-20240123T060810Z-001/images/mellow-cover.png"
+                        alt="Two people sitting on a park bench">
+                    <dl>
+                        <dt>Mellow</dt>
+                        <dd>Relax after a stressful day with this collection of extra smooth jazz.</dd>
+                    </dl>
+                </section>
+                <section class="curated-section">
+                    <img src="images-20240123T060810Z-001/images/jazz-chill-cover.png" alt="Photo of flower pedals">
+                    <dl>
+                        <dt>Jazz and Chill</dt>
+                        <dd>the mood with these silky sounds.</dd>
+                    </dl>
+                </section>
+                <section class="curated-section">
+                    <img src="images-20240123T060810Z-001/images/smooth-saxophone-cover.png" alt="Photo of Saxophones">
+                    <dl>
+                        <dt>Saxophone</dt>
+                        <dd>The greatest collection of your sax favorites.</dd>
+                    </dl>
+                </section>
+            </div>
+        </section>
+        <button type="button" id="curated-button" class="section-2-item section-2-button">More curated</button>
+    </div>
+    <footer>
+        Copyright 2022 Smooth Jazz
+    </footer>
+</body>
+
+</html>
